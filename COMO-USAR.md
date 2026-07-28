@@ -30,16 +30,6 @@ Personalizar Faixa de Opções → marque **Desenvolvedor**.
 
 Na aba **Dashboard**, crie o botão que chama `AtualizarDashboard`.
 
-## 4. (Opcional) Abrir sempre na aba Cadastro
-
-Duplo clique em **ThisWorkbook** no Editor VBA e cole:
-
-```vb
-Private Sub Workbook_Open()
-    Call IrParaCadastro
-End Sub
-```
-
 ## 5. Testar
 
 1. Preencha os campos na aba Cadastro e clique em Registrar Venda.
