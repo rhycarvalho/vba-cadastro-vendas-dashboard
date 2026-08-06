@@ -22,7 +22,7 @@ Os módulos ficam em arquivos `.bas` separados da planilha porque é assim
 que dá pra versionar VBA de forma decente no Git.
 ## Como rodar
 
-Passo a passo completo em [`docs/COMO-USAR.md`](docs/COMO-USAR.md).
+Passo a passo completo na pasta como usar
 
 Resumo:
 
@@ -30,5 +30,3 @@ Resumo:
 2. `Alt+F11` → Arquivo → Importar Arquivo → importar os 3 `.bas`.
 3. Criar os botões nas células indicadas e associar às macros
    (`RegistrarVenda`, `LimparCampos`, `AtualizarDashboard`).
----
-Rhyan Carvalho
